@@ -1,0 +1,24 @@
+# Node Modules
+node_modules/
+npm-debug.log
+package-lock.json
+
+# Cypress
+cypress/screenshots/
+cypress/videos/
+cypress/downloads/
+
+# Configuração do Cypress
+cypress.config.js
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# IDEs
+.vscode/
+.idea/
+*.code-workspace
