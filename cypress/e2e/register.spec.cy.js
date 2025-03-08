@@ -1,6 +1,7 @@
 describe('Formulário', () => {
 
   it('Deve acessar  página do formulário', () => {
+    cy.visit("https://alexmachadoo.github.io/TrabalhoCypress/");
 
   });
 
@@ -12,7 +13,7 @@ describe('Formulário', () => {
     cy.get('#confirma_senha').type('senha963');
   });
 
-  cy.get('#nome').shuold('have.value', 'Alex Sandro Machado');
+  cy.get('#nome').should('have.value', 'Alex Sandro Machado');
   cy.get('#email').should(',have.value','alex.s@email.com');
   cy.get('#telefone').should('4299999999');
   cy.get('#senha').should('have.value','senha963');
